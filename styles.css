@@ -1,8 +1,12 @@
 p {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 30vw;
-    padding-right: 30vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+#top-icons {
+    size: 5vh;
 }
 
 #PageHeader {
@@ -10,11 +14,13 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: red;
     text-align: center;
-    background-color: burlywood;
+    background-color: silver;
     padding-left: 40vw;
     padding-right: 40vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
+    border-bottom: slategray;
+    border-bottom-style: solid;
 }
 
 #On_A_Rock {
