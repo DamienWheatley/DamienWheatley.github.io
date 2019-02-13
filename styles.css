@@ -11,6 +11,7 @@ p {
 }
 
 #On_A_Rock {
-    max-width: 10%;
+    max-width: 40%;
     height: auto;
+    align-self: center;
 }
