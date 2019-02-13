@@ -12,10 +12,10 @@ p {
 #PageHeader {
     font-size: 1.3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: red;
+    color: rgb(34, 29, 29);
     text-align: center;
     background-color: silver;
-    padding: 5vh 40vw; /* first number does top and bottom, second number does left and right */
+    padding: 5vh 30vw; /* first number does top and bottom, second number does left and right */
     border-bottom: slategray;
     border-bottom-style: solid;
 }
