@@ -1,10 +1,10 @@
-.PageHeader {
+#PageHeader {
     font-size: 0.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center
 };
 
-.On_A_Rock {
+#On_A_Rock {
     max-width: 50%;
     height: auto;
     max-width: auto/9; 
