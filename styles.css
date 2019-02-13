@@ -13,5 +13,5 @@ p {
 #On_A_Rock {
     max-width: 40%;
     height: auto;
-    align-self: center;
+    vertical-align: middle;
 }
