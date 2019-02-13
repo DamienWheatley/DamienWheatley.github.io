@@ -15,10 +15,7 @@ p {
     color: red;
     text-align: center;
     background-color: silver;
-    padding-left: 40vw;
-    padding-right: 40vw;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding: 5vh 40vw; /* first number does top and bottom, second number does left and right */
     border-bottom: slategray;
     border-bottom-style: solid;
 }
