@@ -1,12 +1,11 @@
 #PageHeader {
     font-size: 1.3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center
-};
+    color: sienna;
+    text-align: center;
+}
 
 #On_A_Rock {
     max-width: 10%;
     height: auto; 
-    position: absolute;
-    padding: 0.5rem
 }
