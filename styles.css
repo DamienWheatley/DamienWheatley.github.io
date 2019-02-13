@@ -8,6 +8,11 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: red;
     text-align: center;
+    background-color: burlywood;
+    padding-left: 40vw;
+    padding-right: 40vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 #On_A_Rock {
@@ -17,8 +22,8 @@ p {
     padding-left: 35vw;
 }
 
-/* ol {
+ol {
     font-size: 1em;
     padding-left: 35vw;
     text-align: left;
-} */
+}
