@@ -4,3 +4,8 @@
     text-align: center
 };
 
+.On_A_Rock {
+    max-width: 50%;
+    height: auto;
+    max-width: auto/9; 
+}
