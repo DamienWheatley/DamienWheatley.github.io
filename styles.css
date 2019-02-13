@@ -11,7 +11,12 @@ p {
 }
 
 #On_A_Rock {
-    max-width: 40%;
+    max-width: 30%;
     height: auto;
     vertical-align: middle;
+}
+
+ol {
+    font-size: 0.7em;
+    padding: 4px;
 }
