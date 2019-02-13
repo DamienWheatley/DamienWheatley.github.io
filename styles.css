@@ -6,7 +6,8 @@ p {
 }
 
 #top-icons {
-    size: 5vh;
+    width: 5vh;
+    height: 5vh;
 }
 
 #PageHeader {
