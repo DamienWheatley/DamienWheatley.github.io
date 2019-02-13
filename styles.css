@@ -13,10 +13,11 @@ p {
 #On_A_Rock {
     max-width: 30%;
     height: auto;
-    text-align: center
+    position: relative;
 }
 
 ol {
-    font-size: 0.7em;
+    font-size: 1em;
     padding: 4px;
+    text-align: center;
 }
