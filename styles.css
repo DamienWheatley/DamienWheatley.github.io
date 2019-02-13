@@ -13,7 +13,7 @@ p {
 #On_A_Rock {
     max-width: 30%;
     height: auto;
-    vertical-align: middle;
+    text-align: center
 }
 
 ol {
