@@ -5,10 +5,10 @@ p {
     padding-right: 20vw;
 }
 
-/* #top-icons {
-    width: 1em;
-    height: 1em;
-} */
+#top-icons {
+    align-items: center;
+    
+}
 
 #PageHeader {
     font-size: 1.3rem;
@@ -26,6 +26,8 @@ p {
     height: auto;
     position: relative;
     padding-left: 35vw;
+    border-color: black;
+    border-style: solid; 
 }
 
 ol {
