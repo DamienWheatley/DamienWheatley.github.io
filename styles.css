@@ -43,11 +43,14 @@ ol {
 }
 
 ul {
+    list-style-type: none;
     font-size: 1em;
-    padding: 2px;
-    text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #floatingBanner {
