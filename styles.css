@@ -44,10 +44,9 @@ ol {
 
 ul {
     font-size: 1em;
-    padding-left: 2vw;
+    padding: 2px;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    float: left;
     position: relative;
 }
 
