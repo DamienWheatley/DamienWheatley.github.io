@@ -6,6 +6,18 @@ a {
     display: block;
 }
 
+ul.topMenuOptions {
+    list-style-type: none;
+    font-size: 1em;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+
 p {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -44,21 +56,6 @@ ol {
     padding-left: 35vw;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-ul {
-    list-style-type: none;
-    font-size: 1em;
-    padding: 0px;
-    margin: 0;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-li {
-    display: block;
 }
 
 #floatingBanner {
