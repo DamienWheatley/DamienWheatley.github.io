@@ -27,6 +27,7 @@ p {
     height: auto;
     position: relative;
     margin-left: 35vw;
+    margin-top: 5vw;
     border-color: black;
     border-style: solid; 
 }
