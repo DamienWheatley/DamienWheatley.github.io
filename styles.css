@@ -52,13 +52,19 @@ ol {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+ul {
+    font-size: 1em;
+    padding-left: 2vw;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #floatingMenu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 10%;
-    height: 90%;
-    margin-top: 10%; 
+    height: 72.2%; 
     background-color: rgb(218, 218, 218);
     border-right-color: slategray;
     position: fixed;
