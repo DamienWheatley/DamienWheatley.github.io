@@ -19,10 +19,12 @@ p {
     color: rgb(34, 29, 29);
     text-align: center;
     background-color: silver;
-    padding: 5vh 30vw; /* first number does top and bottom, second number does left and right */
+    padding: 0; /* first number does top and bottom, second number does left and right */
+    margin: 0;
     border-bottom: slategray;
     border-bottom-style: solid;
     position: fixed;
+    width: 100%;
 }
 
 #On_A_Rock {
