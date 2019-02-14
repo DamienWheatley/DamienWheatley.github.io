@@ -9,6 +9,14 @@ p {
     padding-right: 20vw;
 }
 
+#footer {
+    align-items: center;
+    padding-right: 45vw;
+    padding-bottom: 5vh;
+
+    background-color: darkgray;
+}
+
 #pageHeader {
     font-size: 1.3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
