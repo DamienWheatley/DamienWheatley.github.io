@@ -53,14 +53,15 @@ ul {
 
 #floatingBanner {
     background-color: silver;
-    padding: 5vh 30vw; /* first number does top and bottom, second number does left and right */
+    padding: 5vh 5vw; /* first number does top and bottom, second number does left and right */
+    max-height: 10%;
     border-bottom: slategray;
     border-bottom-style: solid;
     position: fixed;
 }
 
 #floatingMenu {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(34, 29, 29);
     text-align: center;
