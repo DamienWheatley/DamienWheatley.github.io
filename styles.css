@@ -47,6 +47,16 @@ ul {
     padding-left: 2vw;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    position: relative;
+}
+
+#floatingBanner {
+    background-color: silver;
+    padding: 5vh 30vw; /* first number does top and bottom, second number does left and right */
+    border-bottom: slategray;
+    border-bottom-style: solid;
+    position: fixed;
 }
 
 #floatingMenu {
@@ -54,11 +64,6 @@ ul {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(34, 29, 29);
     text-align: center;
-    background-color: silver;
-    padding: 5vh 30vw; /* first number does top and bottom, second number does left and right */
-    border-bottom: slategray;
-    border-bottom-style: solid;
-    position: fixed;
 }
 
 #textBody {
