@@ -62,6 +62,14 @@ ol {
     text-align: center;
 }
 
+div.topMenu {
+    padding: 0px;
+    margin: 0;
+    position: fixed;
+    top: 10%;
+    width: 50%;
+}
+
 ul.topMenuOptions {
     list-style-type: none;
     font-size: 1em;
