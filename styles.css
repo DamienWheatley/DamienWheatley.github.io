@@ -68,6 +68,7 @@ div.topMenu {
     position: fixed;
     top: 10%;
     width: 50%;
+    background-color: slategray;
 }
 
 ul.topMenuOptions {
