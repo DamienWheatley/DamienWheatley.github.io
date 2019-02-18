@@ -41,6 +41,16 @@ p {
         top: 30%;
         width: 20%;
         display: block;
+
+        ul{
+            list-style: none;
+        }
+
+        li {
+            float: right;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
     }
 }
 

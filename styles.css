@@ -39,6 +39,14 @@ p {
   width: 20%;
   display: block;
 }
+.topMenu #topMenuOptions ul {
+  list-style: none;
+}
+.topMenu #topMenuOptions li {
+  float: right;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 .textBody {
   top: 100px;
