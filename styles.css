@@ -19,7 +19,7 @@ p {
   color: #221d1d;
   text-align: center;
   background-color: silver;
-  padding-top: 10;
+  padding-top: 10em;
   /* first number does top and bottom, second number does left and right */
   margin: 0;
   border-bottom: slategray;
@@ -33,7 +33,9 @@ p {
   padding: 0px;
   margin: 0;
   position: fixed;
+  position: relative;
   top: 30%;
+  right: 50%;
   width: 50%;
   background-color: slategray;
 }
@@ -47,7 +49,7 @@ p {
 }
 
 .textBody {
-  padding-top: 10vh;
+  top: 30%;
 }
 .textBody #On_A_Rock {
   max-width: 30%;
