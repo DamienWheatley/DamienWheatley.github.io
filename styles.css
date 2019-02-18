@@ -56,10 +56,14 @@ div.pageBanner #pageHeader {
   padding-bottom: 10px;
   border-style: dashed;
 }
+.topMenu a:hover {
+  background-color: #a7a7a7;
+}
 
 .textBody {
   top: 15vh;
   position: relative;
+  padding: 30px 0px 64px 0px;
 }
 .textBody p {
   top: 5vh;
