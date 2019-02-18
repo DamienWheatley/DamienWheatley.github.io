@@ -5,20 +5,23 @@ p {
   padding-right: 20vw;
 }
 
-.pageHeader {
+div.pageBanner {
+  background-color: silver;
+  top: 0;
+  width: 100%;
+  height: 85px;
+  margin: 0;
+  width: 100%;
+}
+div.pageBanner #pageHeader {
   font-size: 1.3rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #221d1d;
   text-align: center;
-  background-color: silver;
   padding-top: 3%;
-  margin: 0;
   border-bottom: slategray;
   border-bottom-style: solid;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 85px;
+  position: fixed;
 }
 
 .topMenu {
@@ -76,14 +79,15 @@ p {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 25%;
+  height: 7vh;
 }
 .pageFooter a {
   float: right;
   text-decoration: none;
   padding: 1px;
   display: block;
-  width: 4%;
+  position: fixed;
+  right: 52vh;
 }
 
 /*# sourceMappingURL=styles.css.map */
