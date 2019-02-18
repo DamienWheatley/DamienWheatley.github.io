@@ -1,11 +1,3 @@
-a {
-  text-decoration: none;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 1px;
-  border: black solid;
-  display: block;
-}
-
 p {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -65,7 +57,7 @@ p {
 }
 .textBody ol {
   font-size: 1em;
-  padding-left: 45vw;
+  padding-left: 41vw;
   /* text-align: left; */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -85,6 +77,13 @@ p {
   bottom: 0;
   width: 100%;
   height: 25%;
+}
+.pagefooter a {
+  float: right;
+  text-decoration: none;
+  padding: 1px;
+  display: block;
+  width: 4%;
 }
 
 /*# sourceMappingURL=styles.css.map */
