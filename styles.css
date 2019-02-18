@@ -19,7 +19,7 @@ p {
   color: #221d1d;
   text-align: center;
   background-color: silver;
-  padding-top: 10em;
+  padding-top: 5%;
   /* first number does top and bottom, second number does left and right */
   margin: 0;
   border-bottom: slategray;
@@ -62,7 +62,7 @@ p {
 }
 .textBody ol {
   font-size: 1em;
-  padding-left: 35vw;
+  padding-left: 45vw;
   /* text-align: left; */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
