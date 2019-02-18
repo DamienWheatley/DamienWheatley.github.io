@@ -24,6 +24,7 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #221d1d;
   text-align: center;
+  left: 41vh;
   padding-top: 3%;
   border-bottom: slategray;
   border-bottom-style: solid;
@@ -41,21 +42,20 @@ p {
   background-color: slategray;
   overflow: hidden;
 }
-.topMenu .button {
+.topMenu .menuButton {
   float: left;
   transition: 0.3s;
   cursor: pointer;
   text-align: center;
   color: #221d1d;
-  background-color: inherit;
+  background-color: slategray;
   text-decoration: none;
   font-size: 1.4em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0px;
   padding: 14px 16px;
   border: solid, lightgray;
 }
-.topMenu .button:hover {
+.topMenu .menuButton:hover {
   background-color: #a7a7a7;
 }
 

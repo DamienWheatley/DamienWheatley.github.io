@@ -30,6 +30,7 @@ p {
         font-family: $defaultFontFamily;
         color: $defaultFontColor;
         text-align: center;
+        left: 41vh;
         padding-top: 3%;
         border-bottom: slategray;
         border-bottom-style: solid;
@@ -48,26 +49,24 @@ p {
     background-color: slategray;
     overflow: hidden;
     
-    .button {
+    .menuButton {
         float: left;
         transition: 0.3s;
         cursor: pointer;
         text-align: center;
         color: $defaultFontColor;
-        background-color: inherit;
+        background-color: slategray;
         text-decoration: none;
         font-size: 1.4em;
         font-family: $defaultFontFamily;
-        margin: 0px;
         padding: 14px 16px;
         border: solid, lightgray;
     } 
 
-    .button:hover {
+    .menuButton:hover {
         background-color: darken($defaultBackgroundColor, 10%);
     }
 }
-
 
 .textBody {
     top: 15vh;
