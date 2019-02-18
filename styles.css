@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 p {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -43,7 +47,14 @@ div.pageBanner #pageHeader {
   text-align: center;
   color: #221d1d;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.4em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  border-style: dashed;
 }
 
 .textBody {
@@ -82,12 +93,12 @@ div.pageBanner #pageHeader {
   height: 7vh;
 }
 .pageFooter a {
-  float: right;
   text-decoration: none;
-  padding: 1px;
-  display: block;
-  position: fixed;
-  right: 52vh;
+  text-align: center;
+  margin: 6px 7px;
+  display: inline-block;
+  position: relative;
+  left: 42vw;
 }
 
 /*# sourceMappingURL=styles.css.map */
