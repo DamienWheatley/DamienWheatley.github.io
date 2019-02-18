@@ -29,7 +29,7 @@ p {
   width: 100%;
   height: 10%;
 }
-.pageHeader .topMenu {
+.pageHeader #topMenu {
   padding: 0px;
   margin: 0;
   position: fixed;
@@ -39,7 +39,7 @@ p {
   width: 50%;
   background-color: slategray;
 }
-.pageHeader .topMenu #topMenuOptions {
+.pageHeader #topMenu #topMenuOptions {
   list-style-type: none;
   font-size: 1em;
   text-align: center;
