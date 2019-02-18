@@ -16,7 +16,6 @@ p {
 }
 
 .pageBanner{
-    z-index: 1;
     background-color: $defaultBackgroundColor;
     position: fixed;
     display: flex;
@@ -28,6 +27,7 @@ p {
     width: 100%;
 
     #pageHeader {
+        z-index: 1;
         font-size: 1.3rem;
         font-family: $defaultFontFamily;
         color: $defaultFontColor;
