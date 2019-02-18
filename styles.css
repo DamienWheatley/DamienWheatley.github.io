@@ -9,15 +9,17 @@ p {
   padding-right: 20vw;
 }
 
-div.pageBanner {
+.pageBanner {
+  z-index: 1;
   background-color: silver;
+  position: fixed;
   top: 0;
   width: 100%;
   height: 85px;
   margin: 0;
   width: 100%;
 }
-div.pageBanner #pageHeader {
+.pageBanner #pageHeader {
   font-size: 1.3rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #221d1d;
