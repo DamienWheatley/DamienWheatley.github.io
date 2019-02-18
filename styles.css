@@ -51,6 +51,9 @@ p {
 .textBody {
   top: 100px;
 }
+.textBody p {
+  top: 20vh;
+}
 .textBody #On_A_Rock {
   max-width: 30%;
   height: auto;
