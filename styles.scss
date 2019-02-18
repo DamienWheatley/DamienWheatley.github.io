@@ -1,0 +1,89 @@
+//sass styles.scss styles.css
+
+a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1px;
+    border: black solid;
+    display: block;
+}
+
+p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.pageHeader {
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(34, 29, 29);
+    text-align: center;
+    background-color: silver;
+    padding-top: 10; /* first number does top and bottom, second number does left and right */
+    margin: 0;
+    border-bottom: slategray;
+    border-bottom-style: solid;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10%;
+
+    .topMenu {
+        padding: 0px;
+        margin: 0;
+        position: fixed;
+        top: 30%;
+        width: 50%;
+        background-color: slategray;
+    
+        #topMenuOptions {
+            list-style-type: none;
+            font-size: 1em;
+            text-align: center;
+            top: 30%;
+            width: 20%;
+            display: block;
+        }
+    }
+}
+
+
+
+.textBody {
+    padding-top: 10vh;
+
+    #On_A_Rock {
+        max-width: 30%;
+        height: auto;
+        position: relative;
+        margin-left: 35vw;
+        margin-top: 1vw;
+        border-color: black;
+        border-style: solid; 
+    }
+
+    ol {
+        font-size: 1em;
+        padding-left: 35vw;
+        /* text-align: left; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+.pagefooter {
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(34, 29, 29);
+    text-align: center;
+    background-color: silver;
+    padding: 0; /* first number does top and bottom, second number does left and right */
+    margin: 0;
+    border-bottom: slategray;
+    border-bottom-style: solid;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+}
