@@ -11,8 +11,6 @@ body {
 p {
     text-align: center;
     font-family: $defaultFontFamily;
-    padding-left: 20vw;
-    padding-right: 20vw;
 }
 
 .pageBanner{
@@ -126,6 +124,10 @@ p {
     z-index: -1;
     
     .textBody {
+
+        margin-left: 20vw;
+        margin-right: 20vw;
+        
         p {
             top: 5vh;
         }
@@ -134,7 +136,7 @@ p {
             z-index: -1;
             max-width: 30%;
             height: auto;
-            margin-left: 35vw;
+            margin-left: 15vw;
             margin-top: 1vw;
             border-color: black;
             border-style: solid; 
@@ -142,7 +144,7 @@ p {
     
         ol {
             font-size: 1em;
-            padding-left: 41vw;
+            padding-left: 21vw;
             font-family: $defaultFontFamily;
         }
     

@@ -5,8 +5,6 @@ body {
 p {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding-left: 20vw;
-  padding-right: 20vw;
 }
 
 .pageBanner {
@@ -109,6 +107,10 @@ p {
   padding: 30px 0px 64px 0px;
   z-index: -1;
 }
+.mainBody .textBody {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
 .mainBody .textBody p {
   top: 5vh;
 }
@@ -116,14 +118,14 @@ p {
   z-index: -1;
   max-width: 30%;
   height: auto;
-  margin-left: 35vw;
+  margin-left: 15vw;
   margin-top: 1vw;
   border-color: black;
   border-style: solid;
 }
 .mainBody .textBody ol {
   font-size: 1em;
-  padding-left: 41vw;
+  padding-left: 21vw;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
