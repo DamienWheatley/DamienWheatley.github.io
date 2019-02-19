@@ -100,14 +100,13 @@ p {
   height: 7vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .pageFooter a {
   text-decoration: none;
-  text-align: center;
   margin: 6px 7px;
   display: inline-block;
   position: relative;
-  bottom: -6px;
 }
 
 /*# sourceMappingURL=styles.css.map */
