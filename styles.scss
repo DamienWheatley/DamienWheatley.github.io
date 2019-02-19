@@ -118,15 +118,17 @@ p {
 }
 
 .mainBody {
-    top: 15vh;
+    top: 9vh;
     position: relative;
-    padding: 30px 0px 64px 0px;
+    padding: 0px 0px 64px 0px;
     z-index: -1;
     
     .textBody {
 
-        margin-left: 20vw;
-        margin-right: 20vw;
+        margin-left: 19vw;
+        margin-right: 19vw;
+        padding: 10vh 2vw 2vh 2vw;
+        background-color: aliceblue;
         
         p {
             top: 5vh;
