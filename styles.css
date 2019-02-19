@@ -91,11 +91,12 @@ p {
   display: flex;
   position: fixed;
   left: 0;
+  bottom: 14vh;
   background-color: dodgerblue;
 }
 .twitterTag img {
   position: fixed;
-  right: 0;
+  left: 9vw;
 }
 
 .pageFooter {
