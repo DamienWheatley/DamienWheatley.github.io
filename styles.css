@@ -79,6 +79,10 @@ p {
   color: white;
   font-size: 20px;
 }
+.socialMediaTag a img {
+  height: 20px;
+  width: 20px;
+}
 .socialMediaTag a:hover {
   background-color: #000;
 }
