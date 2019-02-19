@@ -107,19 +107,23 @@ p {
 .socialMediaTag a:hover {
   background-color: #000;
 }
-.socialMediaTag .facebook {
+
+.facebook {
   background-color: #3B5998;
   color: white;
 }
-.socialMediaTag .twitter {
+
+.twitter {
   background-color: #55acee;
   color: white;
 }
-.socialMediaTag .linkedIn {
+
+.linkedIn {
   background-color: #007bb5;
   color: white;
 }
-.socialMediaTag .youTube {
+
+.youTube {
   background-color: #bb0000;
   color: white;
 }
