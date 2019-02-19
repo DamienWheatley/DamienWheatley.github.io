@@ -69,6 +69,8 @@ p {
   top: 44%;
   display: flex;
   flex-wrap: wrap;
+  height: 20vh;
+  width: 3vw;
 }
 .socialMediaTag a {
   text-align: center;
