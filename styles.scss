@@ -120,7 +120,7 @@ p {
 }
 
 .mainBody {
-    top: 9vh;
+    top: 13vh;
     position: relative;
     padding: 0px 0px 53px 0px;
     z-index: -1;
@@ -136,10 +136,12 @@ p {
         }
     
         #On_A_Rock {
-            z-index: -1;
+            z-index: 0;
+            position: relative;
+            left: 29vh;
             max-width: 30%;
             height: auto;
-            margin-left: 15vw;
+            /* margin-left: 15vw; */
             margin-top: 1vw;
             border-color: black;
             border-style: solid; 
