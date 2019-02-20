@@ -10,7 +10,7 @@ p {
 .pageBanner {
   background-color: orange;
   background-image: url(/images/orangeBanner.jpeg);
-  position: fixed;
+  position: relative;
   display: flex;
   justify-content: center;
   top: 0;
@@ -28,14 +28,14 @@ p {
   background: rgba(0, 0, 0, 0.5);
   border: black;
   border-style: solid;
-  position: fixed;
+  position: relative;
 }
 
 .topMenu {
   padding: 0px;
   margin: 0;
-  position: fixed;
-  top: 17vh;
+  position: sticky;
+  top: 0;
   left: 0;
   width: 100%;
   background-color: #464544;
@@ -69,8 +69,8 @@ p {
   top: 44%;
   display: flex;
   flex-wrap: wrap;
-  height: 23vh;
-  width: 3.4vw;
+  height: 176px;
+  width: 40px;
   box-shadow: 1px 2px 5px slategrey;
 }
 .socialMediaTag a {
@@ -112,7 +112,7 @@ p {
 .mainBody .textBody {
   margin-left: 19vw;
   margin-right: 19vw;
-  padding: 10vh 2vw 2vh 2vw;
+  padding: 2vh 2vw 2vh 2vw;
   background-color: aliceblue;
 }
 .mainBody .textBody p {
@@ -136,7 +136,7 @@ p {
 }
 
 .pageFooter {
-  background-color: #191716;
+  background-color: #dc8213;
   padding: 0;
   margin: 0;
   border-bottom: #464544;
