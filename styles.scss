@@ -15,6 +15,7 @@ p {
 
 .pageBanner{
     background-color: $defaultBackgroundColor;
+    background-image: url(/images/ColourfulBanner.jpg);
     position: fixed;
     display: flex;
     justify-content: center;
@@ -76,8 +77,8 @@ p {
     top: 44%;
     display: flex;
     flex-wrap: wrap;
-    height: 20vh;
-    width: 3vw;
+    height: 23vh;
+    width: 3.6vw;
     box-shadow: 1px 2px 5px slategrey;
 
     a {
@@ -120,11 +121,10 @@ p {
 .mainBody {
     top: 9vh;
     position: relative;
-    padding: 0px 0px 64px 0px;
+    padding: 0px 0px 53px 0px;
     z-index: -1;
     
     .textBody {
-
         margin-left: 19vw;
         margin-right: 19vw;
         padding: 10vh 2vw 2vh 2vw;
