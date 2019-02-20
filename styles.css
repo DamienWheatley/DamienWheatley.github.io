@@ -9,7 +9,7 @@ p {
 
 .pageBanner {
   background-color: silver;
-  background-image: url(/images/ColourfulBanner.jpg);
+  background-image: url(/images/WallBanner.jpg);
   position: fixed;
   display: flex;
   justify-content: center;
@@ -20,10 +20,10 @@ p {
 }
 .pageBanner #pageHeader {
   z-index: 1;
-  font-size: 2.6vh;
+  font-size: 4.6vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #221d1d;
-  padding-top: 1.4%;
+  top: 0vh;
   border-bottom: slategray;
   border-bottom-style: solid;
   position: fixed;
