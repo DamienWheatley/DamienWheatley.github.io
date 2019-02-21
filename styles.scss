@@ -153,7 +153,13 @@ p {
                 transform: translate(-50%, -50%);
                 color: white;
 
-                button {
+                a.button {
+                    -webkit-appearance: button;
+                    -moz-appearance: button;
+                    appearance: button;
+                
+                    text-decoration: none;
+                    color: initial;
                     border: none;
                     outline: 0;
                     display: inline-block;
