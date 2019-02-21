@@ -159,10 +159,6 @@ p {
                 color: white;
 
                 .button {
-                    -webkit-appearance: button;
-                    -moz-appearance: button;
-                    appearance: button;
-                
                     text-decoration: none;
                     color: initial;
                     border: none;
@@ -170,7 +166,7 @@ p {
                     display: inline-block;
                     padding: 1vh 1vw;
                     color: black;
-                    background-color: #ddd;
+                    background-color: rgb(49, 40, 32);
                     text-align: center;
                     cursor: pointer;
 
