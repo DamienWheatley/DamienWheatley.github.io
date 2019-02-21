@@ -140,7 +140,7 @@ p {
   transform: translate(-50%, -50%);
   color: white;
 }
-.mainBody .textBody div.heroImage .heroText a.button {
+.mainBody .textBody div.heroImage .heroText .button {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -155,7 +155,7 @@ p {
   text-align: center;
   cursor: pointer;
 }
-.mainBody .textBody div.heroImage .heroText a.button :hover {
+.mainBody .textBody div.heroImage .heroText .button :hover {
   background-color: #555;
   color: white;
 }
