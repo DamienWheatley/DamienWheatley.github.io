@@ -26,15 +26,16 @@ p {
 
     #pageHeader {
         z-index: 1;
+        position: relative;
+        top: 0vh;
         font-size: 4.6vh;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         color: whitesmoke;
-        top: 0vh;
         padding: 3.3vh 4vw 4vh 4vw;
         background: rgba(0, 0, 0, 0.5);
         border: black;
         border-style: solid;
-        position: relative;
+        border-radius: 40px;
     }
 }
 
@@ -51,7 +52,7 @@ p {
     border-top-color: #191716;
     border-bottom: solid;
     border-bottom-color: #191716;
-    box-shadow: 0px 2px 5px lightgrey;
+    box-shadow: 0px 2px 6px #00000069;
 
     .menuButton {
         float: left;
@@ -129,14 +130,18 @@ p {
         margin-left: 19vw;
         margin-right: 19vw;
         padding: 2vh 2vw 2vh 2vw;
-        background-color: aliceblue;
+        background-image: linear-gradient(rgba(241, 91, 4, 0.55), rgba(191, 27, 27, 0.22));
+        background-color: seashell;
+    
         
         p {
             top: 5vh;
         }
     
         div.heroImage {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/On_A_Rock.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./images/On_A_Rock.jpg);
+            box-shadow: 2px 2px 2px #0a0a0a5e;
+            border-radius: 20px;
             height: 38vh;
             background-position: center;
             background-repeat: no-repeat;
