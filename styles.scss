@@ -29,8 +29,8 @@ p {
         font-size: 4.6vh;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         color: whitesmoke;
-        top: -1.5vh;
-        padding: 4vh;
+        top: 0vh;
+        padding: 3.3vh 4vw 4vh 4v;
         background: rgba(0, 0, 0, 0.5);
         border: black;
         border-style: solid;
@@ -120,7 +120,7 @@ p {
 }
 
 .mainBody {
-    top: 13vh;
+    top: 0vh;
     position: relative;
     padding: 0px 0px 53px 0px;
     z-index: -1;
@@ -135,16 +135,23 @@ p {
             top: 5vh;
         }
     
-        #On_A_Rock {
-            z-index: 0;
+        .heroImage {
+
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/On_A_Rock.jpg);
+            height: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             position: relative;
-            left: 29vh;
-            max-width: 30%;
-            height: auto;
-            /* margin-left: 15vw; */
-            margin-top: 1vw;
-            border-color: black;
-            border-style: solid; 
+
+            .heroText {
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                color: white;
+            }
         }
     
         ol {
