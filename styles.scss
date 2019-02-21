@@ -135,28 +135,29 @@ p {
             top: 5vh;
         }
     
-        .heroImage {
-
-            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/On_A_Rock.jpg);
-            height: 50%;
+        div.heroImage {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/On_A_Rock.jpg);
+            height: 38vh;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
+            overflow: hidden;
 
             .heroText {
+                font-family: monospace;
                 text-align: center;
                 position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%,-50%);
+                top: 18vh;
+                left: 28.5vw;
+                transform: translate(-50%, -50%);
                 color: white;
 
                 button {
                     border: none;
                     outline: 0;
                     display: inline-block;
-                    padding: 10px 25px;
+                    padding: 1vh 1vw;
                     color: black;
                     background-color: #ddd;
                     text-align: center;
