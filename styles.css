@@ -134,6 +134,20 @@ p {
   transform: translate(-50%, -50%);
   color: white;
 }
+.mainBody .textBody .heroImage .heroText button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+.mainBody .textBody .heroImage .heroText button :hover {
+  background-color: #555;
+  color: white;
+}
 .mainBody .textBody ol {
   font-size: 1em;
   padding-left: 21vw;
