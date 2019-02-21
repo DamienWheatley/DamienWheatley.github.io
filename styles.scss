@@ -143,8 +143,8 @@ p {
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./images/On_A_Rock.jpg);
             box-shadow: 2px 2px 2px #0a0a0a5e;
             border-radius: 20px;
-            height: 38vh;
-            background-position: center;
+            height: 50vh;
+            background-position: top;
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
@@ -154,8 +154,8 @@ p {
                 font-family: monospace;
                 text-align: center;
                 position: absolute;
-                top: 18vh;
-                left: 28.5vw;
+                top: 50%;
+                left: 50%;
                 transform: translate(-50%, -50%);
                 color: white;
 
