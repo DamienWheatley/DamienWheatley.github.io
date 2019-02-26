@@ -67,10 +67,17 @@ p {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         padding: 0.9vh 1vw;
         border: none;
+
     } 
+
+    .menuButton:active {
+        background-color: orange;
+    }
 
     .menuButton:hover {
         background-color: orange;
+        border-color: #191716;
+        border-style: solid, 1px;
     }
 }
 
