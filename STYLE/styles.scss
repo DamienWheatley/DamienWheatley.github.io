@@ -72,12 +72,13 @@ p {
 
     .menuButton:active {
         background-color: orange;
+        border-style: none;
     }
 
     .menuButton:hover {
         background-color: orange;
         border-color: #191716;
-        border-style: solid, 1px;
+        border-style: solid;
     }
 }
 

@@ -63,11 +63,12 @@ p {
 }
 .topMenu .menuButton:active {
   background-color: orange;
+  border-style: none;
 }
 .topMenu .menuButton:hover {
   background-color: orange;
   border-color: #191716;
-  border-style: solid, 1px;
+  border-style: solid;
 }
 
 .socialMediaTag {
