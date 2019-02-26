@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     let request = new XMLHttpRequest;
 
-    request.open('GET', 'http://api.giphy.com/v1/gifs/trending?api_key=sJgDVeZDHq2Gbm47OnWevUpmFaHsHf6c&limit=10')
+    request.open('GET', 'https://api.giphy.com/v1/gifs/trending?api_key=sJgDVeZDHq2Gbm47OnWevUpmFaHsHf6c&limit=10')
 
     request.onload = function () {
         if (request.status >= 200 && request.status <= 400){
