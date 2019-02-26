@@ -61,8 +61,13 @@ p {
   padding: 0.9vh 1vw;
   border: none;
 }
+.topMenu .menuButton:active {
+  background-color: orange;
+}
 .topMenu .menuButton:hover {
   background-color: orange;
+  border-color: #191716;
+  border-style: solid, 1px;
 }
 
 .socialMediaTag {
@@ -122,7 +127,7 @@ p {
   top: 5vh;
 }
 .mainBody .textBody div.heroImage {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./images/On_A_Rock.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../images/On_A_Rock.jpg);
   box-shadow: 2px 2px 2px #0a0a0a5e;
   border-radius: 20px;
   height: 50vh;
