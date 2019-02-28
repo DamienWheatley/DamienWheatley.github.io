@@ -4,6 +4,8 @@ function activateEgg(){
     
     let eggArea = document.getElementById('konamiIMG')
     eggArea.setAttribute("src",eggItem);
+    eggArea.setAttribute("height",'100%');
+    eggArea.setAttribute("width",'100%');
     alert("Oh dear...");
 }
 
