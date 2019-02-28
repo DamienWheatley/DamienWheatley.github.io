@@ -1,4 +1,3 @@
-window.onload = function(){
     document.addEventListener('DOMContentLoaded', function() {
 
         let request = new XMLHttpRequest;
@@ -23,4 +22,3 @@ window.onload = function(){
         }
         request.send();
     });
-}
