@@ -10,7 +10,6 @@ function shrinkEgg() {
 
 
 function activateEgg(){
-    document.body.style.backgroundImage = "url('./images/PostApocalyptic.jpg')";
     let eggItem = "https://media.giphy.com/media/oe33xf3B50fsc/giphy.gif";
     
     let eggArea = document.getElementById('konamiIMG');
@@ -19,6 +18,7 @@ function activateEgg(){
     eggArea.setAttribute("width",'100%');
     scrollTop();
     setTimeout(shrinkEgg,3000);
+    document.body.style.backgroundImage = "url('./images/PostApocalyptic.jpg')";
 }
 
 let konamiCode = ['up','up','down','down','left','right','left','right','b','a'];
