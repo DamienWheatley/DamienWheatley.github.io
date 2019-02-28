@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     request.open('GET', 'https://api.giphy.com/v1/gifs/trending?api_key=sJgDVeZDHq2Gbm47OnWevUpmFaHsHf6c&limit=10')
 
     request.onload = function () {
+        console.log(request.status);
         if (request.status >= 200 && request.status <= 400){
             let data = JSON.parse(request.responseText);
             console.log(data);
