@@ -2,7 +2,7 @@ function activateEgg(){
     document.body.style.backgroundImage = "url('./images/PostApocalyptic.jpg')";
     let eggItem = "https://media.giphy.com/media/oe33xf3B50fsc/giphy.gif";
     
-    let eggArea = document.getElementsByID('konamiIMG');
+    let eggArea = document.getElementByID('konamiIMG');
     eggArea.setAttribute("src",eggItem);
     alert("Oh dear...");
 }
