@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (request.status >= 200 && request.status <= 400){
             data = JSON.parse(request.responseText).data.image_url;
             console.log(data);
-            document.getElementById("GIFS").innerHTML = '<img src="'+data+'" title="GIF via GIPHY">';
+            document.getElementById("GIFS").innerHTML = data;
         } else {
             console.log('Reached GIPHY but API returned an error');
         }
