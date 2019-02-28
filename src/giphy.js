@@ -16,7 +16,6 @@ getTrending = function(){
                     node.setAttribute("src",data.data[i].images.fixed_width.url);
                     _trendingGIfs.appendChild(data)
                 }
-
             } else {
                 console.log('Reached GIPHY but API returned an error');
             }
