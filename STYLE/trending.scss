@@ -1,10 +1,19 @@
 #trendingGIFs {
     position: relative;
+    top: 2vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
+    #trendingText {
+        font-size: 3vh;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
     img {
+        border: 1px;
+        border-style: solid;
         height: 200px;
         width: 200px;
     }
