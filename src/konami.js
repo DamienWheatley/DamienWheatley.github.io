@@ -1,10 +1,9 @@
 function activateEgg(){
     document.body.style.backgroundImage = "url('./images/PostApocalyptic.jpg')";
-    let eggItem = document.createElement("img");
-    eggItem.src = "https://media.giphy.com/media/oe33xf3B50fsc/giphy.gif";
+    let eggItem = "https://media.giphy.com/media/oe33xf3B50fsc/giphy.gif";
     
-    let eggArea = document.getElementsByClassName('textBody');
-    eggArea.appendChild(eggItem);
+    let eggArea = document.getElementsByID('konamiIMG');
+    eggArea.setAttribute("src",eggItem);
     alert("Oh dear...");
 }
 
