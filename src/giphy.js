@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (request.status >= 200 && request.status <= 400){
             console.log(request.status);
             let response = JSON.parse(request.responseText);
-            console.log(data);
+            console.log(response);
             if(response.data.length < 10)return;
             for(let i=0;i<10;i++){
                 var node = document.getElementById("gif~"+i);
