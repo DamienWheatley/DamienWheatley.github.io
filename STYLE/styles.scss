@@ -1,5 +1,7 @@
 //sass styles.scss styles.css
 
+@import 'trending';
+
 $defaultFontFamily: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 $defaultFontColor: #221d1d;
 $defaultBackgroundColor: silver;
@@ -139,7 +141,6 @@ p {
         padding: 2vh 2vw 2vh 2vw;
         background-image: linear-gradient(rgba(241, 91, 4, 0.55), rgba(191, 27, 27, 0.22));
         background-color: seashell;
-    
         
         p {
             top: 5vh;
