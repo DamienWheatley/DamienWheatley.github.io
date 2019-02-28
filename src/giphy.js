@@ -6,12 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
     request.onload = function () {
         if (request.status >= 200 && request.status <= 400){
             console.log(request.status);
-            let data = JSON.parse(request.responseText);
+            let response = JSON.parse(request.responseText);
             console.log(data);
-            if(data.data.length < 10)return;
+            if(response.data.length < 10)return;
             for(let i=0;i<10;i++){
                 var node = document.getElementById("gif~"+i);
-                node.setAttribute("src",data.data[i].images.fixed_width.url);
+                node.setAttribute("src",response.data[i].images.fixed_width.url);
             }
         } else {
             console.log('Reached GIPHY but API returned an error');
