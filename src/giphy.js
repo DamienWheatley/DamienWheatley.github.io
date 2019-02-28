@@ -8,13 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log(request.status);
             let data = JSON.parse(request.responseText);
             console.log(data);
-            let _trendingGIfs = document.getElementById("trendingGIFS");
-
             if(data.data.length < 10)return;
             for(let i=0;i<10;i++){
                 var node = document.getElementById("gif~"+i);
                 node.setAttribute("src",data.data[i].images.fixed_width.url);
-                // _trendingGIfs.appendChild(data);
             }
         } else {
             console.log('Reached GIPHY but API returned an error');
