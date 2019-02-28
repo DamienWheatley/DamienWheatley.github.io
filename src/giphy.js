@@ -1,4 +1,4 @@
-window.onload = function(){
+getTrending = function(){
     document.addEventListener('DOMContentLoaded', function() {
 
         let request = new XMLHttpRequest;
@@ -8,7 +8,15 @@ window.onload = function(){
             if (request.status >= 200 && request.status <= 400){
                 let data = JSON.parse(request.responseText);
                 console.log(data);
-                document.getElementById("GIFS").innerHTML = data[0].url;
+                let _trendingGIfs = document.getElementById("trendingGIFS");
+
+                if(data.data.length < 10)return;
+                for(let i=0;i<10;i++){
+                    var node = document.getElementById("gif~"+i);
+                    node.setAttribute("src",data.data[i].images.fixed_width.url);
+                    _trendingGIfs.appendChild(data)
+                }
+
             } else {
                 console.log('Reached GIPHY but API returned an error');
             }
