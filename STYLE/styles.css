@@ -1,10 +1,10 @@
-#trendingGifs {
+#trendingGIFs {
   position: relative;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-#trendingGifs img {
+#trendingGIFs img {
   height: 200px;
   width: 200px;
 }
