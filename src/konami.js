@@ -1,3 +1,8 @@
+function scrollTop(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
 function activateEgg(){
     document.body.style.backgroundImage = "url('./images/PostApocalyptic.jpg')";
     let eggItem = "https://media.giphy.com/media/oe33xf3B50fsc/giphy.gif";
@@ -6,6 +11,7 @@ function activateEgg(){
     eggArea.setAttribute("src",eggItem);
     eggArea.setAttribute("height",'100%');
     eggArea.setAttribute("width",'100%');
+    scrollTop();
     alert("Oh dear...");
 }
 
