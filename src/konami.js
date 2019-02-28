@@ -2,19 +2,18 @@ function scrollTop(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-
 function shrinkEgg() {
-    let eggArea = document.getElementById('konamiIMG')
-    eggArea.setAttribute("src",eggItem);
+    let eggArea = document.getElementById('konamiIMG');
     eggArea.setAttribute("height",'0%');
     eggArea.setAttribute("width",'0%');
 }
+
 
 function activateEgg(){
     document.body.style.backgroundImage = "url('./images/PostApocalyptic.jpg')";
     let eggItem = "https://media.giphy.com/media/oe33xf3B50fsc/giphy.gif";
     
-    let eggArea = document.getElementById('konamiIMG')
+    let eggArea = document.getElementById('konamiIMG');
     eggArea.setAttribute("src",eggItem);
     eggArea.setAttribute("height",'100%');
     eggArea.setAttribute("width",'100%');
