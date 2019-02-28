@@ -19,7 +19,6 @@ function activateEgg(){
     eggArea.setAttribute("width",'100%');
     scrollTop();
     setTimeout(shrinkEgg,3000);
-    alert("Oh dear...");
 }
 
 let konamiCode = ['up','up','down','down','left','right','left','right','b','a'];
