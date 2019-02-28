@@ -18,7 +18,7 @@ function activateEgg(){
     eggArea.setAttribute("height",'100%');
     eggArea.setAttribute("width",'100%');
     scrollTop();
-    setTimeout(shrinkEgg(),10000);
+    setTimeout(shrinkEgg,10000);
     alert("Oh dear...");
 }
 
