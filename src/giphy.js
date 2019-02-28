@@ -1,4 +1,4 @@
-function getTrending() {
+window.onload = function(){
     document.addEventListener('DOMContentLoaded', function() {
 
         let request = new XMLHttpRequest;
