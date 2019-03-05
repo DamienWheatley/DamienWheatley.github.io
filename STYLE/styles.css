@@ -39,8 +39,7 @@ p {
   color: black;
   padding: 20px;
 }
-
-.topMenu {
+.header .topMenu {
   z-index: 1;
   position: sticky;
   position: -webkit-sticky;
@@ -54,7 +53,7 @@ p {
   border-bottom-color: #191716;
   box-shadow: 2px 2px 2px #0a0a0a5e;
 }
-.topMenu .menuButton {
+.header .topMenu .menuButton {
   float: left;
   transition: 0.3s;
   cursor: pointer;
@@ -67,11 +66,11 @@ p {
   padding: 0.9vh 1vw;
   border: 1.5px solid transparent;
 }
-.topMenu .menuButton:active {
+.header .topMenu .menuButton:active {
   background-color: orange;
   border: 1.5px solid transparent;
 }
-.topMenu .menuButton:hover {
+.header .topMenu .menuButton:hover {
   background-color: orange;
   border: 1.5px solid black;
 }
