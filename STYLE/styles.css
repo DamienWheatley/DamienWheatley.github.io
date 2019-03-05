@@ -33,15 +33,13 @@ p {
 }
 
 .header {
-  margin: 0;
-}
-.header .pageBanner {
   z-index: 1;
   background-color: #fff9f1;
   text-align: center;
   font-size: 2.8vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: black;
+  padding: 20px;
 }
 .header .topMenu {
   z-index: 1;
