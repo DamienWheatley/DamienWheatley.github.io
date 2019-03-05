@@ -142,6 +142,16 @@ p {
 
     .rightColumn {
         width: 30%;
+
+        ol {
+            font-size: 1em;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            list-style-position: inside;
+        }
     }
     
     .textBody {
@@ -193,16 +203,6 @@ p {
                     }
                 }
             }
-        }
-    
-        ol {
-            font-size: 1em;
-            padding: 0px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            list-style-position: inside;
         }
     }
 }

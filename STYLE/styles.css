@@ -142,6 +142,15 @@ p {
 .mainBody .rightColumn {
   width: 30%;
 }
+.mainBody .rightColumn ol {
+  font-size: 1em;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style-position: inside;
+}
 .mainBody .textBody {
   background-image: linear-gradient(rgba(241, 91, 4, 0.55), rgba(191, 27, 27, 0.22));
   background-color: seashell;
@@ -184,15 +193,6 @@ p {
 .mainBody .textBody div.heroImage .heroText .button :hover {
   background-color: #cecece;
   color: white;
-}
-.mainBody .textBody ol {
-  font-size: 1em;
-  padding: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  list-style-position: inside;
 }
 
 .pageFooter {
