@@ -135,6 +135,13 @@ p {
   position: relative;
   padding: 0px 0px 53px 0px;
   z-index: 0;
+  float: left;
+}
+.mainBody .leftColumn {
+  width: 70%;
+}
+.mainBody .rightColumn {
+  width: 30%;
 }
 .mainBody .textBody {
   margin-left: 19vw;
