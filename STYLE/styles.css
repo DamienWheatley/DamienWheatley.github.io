@@ -142,7 +142,7 @@ p {
   clear: both;
 }
 .mainBody .leftColumn {
-  width: 70%;
+  width: 60%;
 }
 .mainBody .rightColumn {
   width: 30%;
@@ -157,6 +157,9 @@ p {
   list-style-position: inside;
 }
 .mainBody .textBody {
+  margin-left: 6vw;
+  margin-right: 2vw;
+  padding: 2vh 2vw 2vh 2vw;
   background-image: linear-gradient(rgba(241, 91, 4, 0.55), rgba(191, 27, 27, 0.22));
   background-color: seashell;
 }
