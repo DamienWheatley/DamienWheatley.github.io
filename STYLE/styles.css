@@ -44,11 +44,9 @@ p {
 
 .topMenu {
   z-index: 1;
-  padding: 0px;
-  margin: 0;
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
-  left: 0;
   width: 100%;
   background-color: #464544;
   overflow: hidden;
