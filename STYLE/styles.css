@@ -19,6 +19,10 @@
   text-decoration: underline;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0px;
 }
@@ -170,7 +174,7 @@ p {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../images/On_A_Rock.jpg);
   box-shadow: 2px 2px 2px #0a0a0a5e;
   border-radius: 20px;
-  height: 50vh;
+  height: 38vh;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
