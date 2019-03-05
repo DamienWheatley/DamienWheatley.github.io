@@ -58,6 +58,7 @@ p {
     .menuButton {
         position: sticky;
         position: -webkit-sticky;
+        top: 0;
         float: left;
         transition: 0.3s;
         cursor: pointer;
