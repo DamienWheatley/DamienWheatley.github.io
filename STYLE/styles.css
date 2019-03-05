@@ -19,6 +19,19 @@
   text-decoration: underline;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .leftColumn {
+    width: 100%;
+  }
+
+  .rightColumn {
+    width: 100%;
+  }
+}
 body {
   margin: 0px;
 }
@@ -39,10 +52,11 @@ p {
   color: black;
   padding: 20px;
 }
-.header .topMenu {
+
+.topMenu {
   z-index: 1;
   position: sticky;
-  position: -webkit-sticky;
+  align-items: flex-start;
   top: 0;
   width: 100%;
   background-color: #464544;
@@ -53,7 +67,9 @@ p {
   border-bottom-color: #191716;
   box-shadow: 2px 2px 2px #0a0a0a5e;
 }
-.header .topMenu .menuButton {
+.topMenu .menuButton {
+  position: sticky;
+  position: -webkit-sticky;
   float: left;
   transition: 0.3s;
   cursor: pointer;
@@ -66,11 +82,11 @@ p {
   padding: 0.9vh 1vw;
   border: 1.5px solid transparent;
 }
-.header .topMenu .menuButton:active {
+.topMenu .menuButton:active {
   background-color: orange;
   border: 1.5px solid transparent;
 }
-.header .topMenu .menuButton:hover {
+.topMenu .menuButton:hover {
   background-color: orange;
   border: 1.5px solid black;
 }
@@ -123,6 +139,10 @@ p {
 .mainBody h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #221d1d;
+}
+.mainBody :after {
+  display: table;
+  clear: both;
 }
 .mainBody .leftColumn {
   width: 54%;

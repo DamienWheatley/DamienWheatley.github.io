@@ -8,18 +8,18 @@ $defaultBackgroundColor: silver;
 $defaultShadow: 2px 2px 2px #0a0a0a5e;
 $textBody-backgroundColor: rgba(255, 255, 255, 0.749);
 
-// * {
-//     box-sizing: border-box;
-// }
+* {
+    box-sizing: border-box;
+}
 
-// @media screen and (max-width:600px) {
-//     .leftColumn {
-//         width: 100%;
-//     }
-//     .rightColumn {
-//         width: 100%;
-//     }
-// }
+@media screen and (max-width:600px) {
+    .leftColumn {
+        width: 100%;
+    }
+    .rightColumn {
+        width: 100%;
+    }
+}
 
 body {
     margin: 0px;
@@ -40,46 +40,48 @@ p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     padding: 20px;
+}
+.topMenu {
+    z-index: 1;
+    position: sticky;
+    align-items: flex-start;
+    top: 0;
+    width: 100%;
+    background-color: #464544;
+    overflow: hidden;
+    border-top: solid;
+    border-top-color: #191716;
+    border-bottom: solid;
+    border-bottom-color: #191716;
+    box-shadow: $defaultShadow;
 
-    .topMenu {
-        z-index: 1;
+    .menuButton {
         position: sticky;
         position: -webkit-sticky;
-        top: 0;
-        width: 100%;
+        float: left;
+        transition: 0.3s;
+        cursor: pointer;
+        text-align: center;
+        color: whitesmoke;
         background-color: #464544;
-        overflow: hidden;
-        border-top: solid;
-        border-top-color: #191716;
-        border-bottom: solid;
-        border-bottom-color: #191716;
-        box-shadow: $defaultShadow;
+        text-decoration: none;
+        font-size: 2.4vh;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0.9vh 1vw;
+        border: 1.5px solid transparent;
+    } 
 
-        .menuButton {
-            float: left;
-            transition: 0.3s;
-            cursor: pointer;
-            text-align: center;
-            color: whitesmoke;
-            background-color: #464544;
-            text-decoration: none;
-            font-size: 2.4vh;
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            padding: 0.9vh 1vw;
-            border: 1.5px solid transparent;
-        } 
+    .menuButton:active {
+        background-color: orange;
+        border: 1.5px solid transparent;
+    }
 
-        .menuButton:active {
-            background-color: orange;
-            border: 1.5px solid transparent;
-        }
-
-        .menuButton:hover {
-            background-color: orange;
-            border: 1.5px solid black;
-        }
+    .menuButton:hover {
+        background-color: orange;
+        border: 1.5px solid black;
     }
 }
+
 .socialMediaTag {
     z-index: 1;
     position: fixed;
@@ -137,11 +139,11 @@ p {
         color: $defaultFontColor;
     }
 
-    // :after {
-    //     // content: "";
-    //     display: table;
-    //     clear: both;
-    // }
+    :after {
+        // content: "";
+        display: table;
+        clear: both;
+    }
 
 
     .leftColumn {
