@@ -125,10 +125,6 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #221d1d;
 }
-.mainBody :after {
-  display: table;
-  clear: both;
-}
 .mainBody .leftColumn {
   width: 54%;
   position: relative;
