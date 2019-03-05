@@ -41,7 +41,11 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header {
+.pageHeader {
+  position: sticky;
+  top: 0;
+}
+.pageHeader .header {
   position: relative;
   top: 0;
   z-index: 1;
@@ -52,12 +56,9 @@ p {
   color: black;
   padding: 20px;
 }
-
-.topMenu {
+.pageHeader .topMenu {
   z-index: 1;
-  position: sticky;
   align-items: flex-start;
-  top: 0;
   width: 100%;
   background-color: #464544;
   overflow: hidden;
@@ -67,10 +68,7 @@ p {
   border-bottom-color: #191716;
   box-shadow: 2px 2px 2px #0a0a0a5e;
 }
-.topMenu .menuButton {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
+.pageHeader .topMenu .menuButton {
   float: left;
   transition: 0.3s;
   cursor: pointer;
@@ -83,11 +81,11 @@ p {
   padding: 0.9vh 1vw;
   border: 1.5px solid transparent;
 }
-.topMenu .menuButton:active {
+.pageHeader .topMenu .menuButton:active {
   background-color: orange;
   border: 1.5px solid transparent;
 }
-.topMenu .menuButton:hover {
+.pageHeader .topMenu .menuButton:hover {
   background-color: orange;
   border: 1.5px solid black;
 }
