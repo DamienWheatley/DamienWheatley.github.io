@@ -19,10 +19,6 @@
   text-decoration: underline;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 @media screen and (max-width: 600px) {
   .leftColumn {
     width: 100%;
@@ -141,7 +137,7 @@ p {
   clear: both;
 }
 .mainBody .leftColumn {
-  width: 57%;
+  width: 54%;
   position: relative;
   left: 3vw;
   float: left;
@@ -150,7 +146,7 @@ p {
   margin-bottom: 10vh;
 }
 .mainBody .rightColumn {
-  width: 32%;
+  width: 37%;
   left: 6vw;
   float: left;
   position: relative;
