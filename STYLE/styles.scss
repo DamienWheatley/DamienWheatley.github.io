@@ -114,14 +114,14 @@ p {
 }
 
 .mainBody {
-    top: 0vh;
+    top: 2vh;
     position: relative;
     // padding: 0px 0px 53px 0px;
     z-index: 0;
     
 
     :after {
-        // content: "";
+        content: "";
         display: table;
         clear: both;
     }
@@ -132,6 +132,9 @@ p {
         position: relative;
         left: 3vw;
         float: left;
+        border-style: solid;
+        border-color: #f1f1f1;
+        margin-bottom: 10vh;
     }
 
     .rightColumn {
@@ -140,6 +143,8 @@ p {
         float: left;
         position: relative;
         border-style: solid;
+        border-color: #f1f1f1;
+        margin-bottom: 10vh;
 
         ol {
             font-size: 1em;
