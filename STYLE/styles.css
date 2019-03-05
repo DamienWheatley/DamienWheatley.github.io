@@ -191,6 +191,9 @@ p {
   transform: translate(-50%, -50%);
   color: white;
 }
+.mainBody .textBody div.heroImage .heroText h2 {
+  color: white;
+}
 .mainBody .textBody div.heroImage .heroText .button {
   text-decoration: none;
   color: initial;
