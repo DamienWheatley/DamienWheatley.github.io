@@ -121,24 +121,25 @@ p {
     
 
     :after {
-        content: "";
+        // content: "";
         display: table;
         clear: both;
     }
 
 
     .leftColumn {
-        width: 60%;
-        float: left;
+        width: 57%;
         position: relative;
-        left: -10px;
+        left: 3vw;
+        float: left;
     }
 
     .rightColumn {
-        width: 40%;
+        width: 32%;
+        left: 6vw;
         float: left;
         position: relative;
-        left: -53px;
+        border-style: solid;
 
         ol {
             font-size: 1em;
@@ -152,11 +153,9 @@ p {
     }
     
     .textBody {
-        margin-left: 6vw;
-        margin-right: 2vw;
-        padding: 2vh 2vw 2vh 2vw;
-        background-image: linear-gradient(rgba(241, 91, 4, 0.55), rgba(191, 27, 27, 0.22));
-        background-color: seashell;
+    padding: 2vh 2vw 2vh 2vw;
+    background-color: #ffffffbf;
+    box-shadow: 5px 6px 7px 2px #0a0a0a5e;
 
         p {
             top: 5vh;
