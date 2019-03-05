@@ -3,8 +3,10 @@
 @import 'trending';
 
 $defaultFontFamily: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-$defaultFontColor: #221d1d;
+$defaultFontColor: rgb(34, 29, 29);
 $defaultBackgroundColor: silver;
+$defaultShadow: 2px 2px 2px #0a0a0a5e;
+$textBody-backgroundColor: rgba(255, 255, 255, 0.749);
 
 * {
     box-sizing: border-box;
@@ -49,7 +51,7 @@ p {
     border-top-color: #191716;
     border-bottom: solid;
     border-bottom-color: #191716;
-    box-shadow: 0px 2px 6px #00000069;
+    box-shadow: $defaultShadow;
 
     .menuButton {
         float: left;
@@ -83,7 +85,7 @@ p {
     flex-wrap: wrap;
     height: 176px;
     width: 40px;
-    box-shadow: 1px 2px 5px slategrey;
+    box-shadow: $defaultShadow;
 
     a {
         text-align: center;
@@ -125,9 +127,12 @@ p {
 .mainBody {
     top: 2vh;
     position: relative;
-    // padding: 0px 0px 53px 0px;
     z-index: 0;
     
+    h2 {
+        font-family: $defaultFontFamily;
+        color: $defaultFontColor;
+    }
 
     :after {
         content: "";
@@ -168,8 +173,8 @@ p {
     
     .textBody {
     padding: 2vh 2vw 2vh 2vw;
-    background-color: #ffffffbf;
-    box-shadow: 5px 6px 7px 2px #0a0a0a5e;
+    background-color: $textBody-backgroundColor;
+    box-shadow: $defaultShadow;
 
         p {
             top: 5vh;
@@ -177,7 +182,7 @@ p {
 
         div.heroImage {
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../images/On_A_Rock.jpg);
-            box-shadow: 2px 2px 2px #0a0a0a5e;
+            box-shadow: $defaultShadow;
             border-radius: 20px;
             height: 38vh;
             background-position: top;
