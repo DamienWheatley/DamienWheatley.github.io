@@ -66,8 +66,6 @@ p {
     }
 }
 
-
-
 .socialMediaTag {
     z-index: 1;
     position: fixed;
@@ -120,7 +118,7 @@ p {
     position: relative;
     // padding: 0px 0px 53px 0px;
     z-index: 0;
-    float: left;
+    
 
     :after {
         content: "";
@@ -131,10 +129,16 @@ p {
 
     .leftColumn {
         width: 60%;
+        float: left;
+        position: relative;
+        left: -10px;
     }
 
     .rightColumn {
-        width: 30%;
+        width: 40%;
+        float: left;
+        position: relative;
+        left: -53px;
 
         ol {
             font-size: 1em;
