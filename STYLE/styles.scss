@@ -136,6 +136,13 @@ p {
     z-index: 0;
     float: left;
 
+    :after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
     .leftColumn {
         width: 70%;
     }

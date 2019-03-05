@@ -136,6 +136,11 @@ p {
   z-index: 0;
   float: left;
 }
+.mainBody :after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .mainBody .leftColumn {
   width: 70%;
 }
