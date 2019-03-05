@@ -12,14 +12,14 @@ $textBody-backgroundColor: rgba(255, 255, 255, 0.749);
 //     box-sizing: border-box;
 // }
 
-@media screen and (max-width:600px) {
-    .leftColumn {
-        width: 100%;
-    }
-    .rightColumn {
-        width: 100%;
-    }
-}
+// @media screen and (max-width:600px) {
+//     .leftColumn {
+//         width: 100%;
+//     }
+//     .rightColumn {
+//         width: 100%;
+//     }
+// }
 
 body {
     margin: 0px;
@@ -31,6 +31,8 @@ p {
 }
 
 .header {
+    position: relative;
+    top: 0;
     z-index: 1;
     background-color: rgb(255, 249, 241);
     text-align: center;

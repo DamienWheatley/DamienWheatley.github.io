@@ -19,15 +19,6 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 600px) {
-  .leftColumn {
-    width: 100%;
-  }
-
-  .rightColumn {
-    width: 100%;
-  }
-}
 body {
   margin: 0px;
 }
@@ -38,6 +29,8 @@ p {
 }
 
 .header {
+  position: relative;
+  top: 0;
   z-index: 1;
   background-color: #fff9f1;
   text-align: center;
