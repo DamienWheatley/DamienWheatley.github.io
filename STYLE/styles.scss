@@ -30,58 +30,56 @@ p {
     font-family: $defaultFontFamily;
 }
 
-.pageHeader {
+.header {
+    position: relative;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(255, 249, 241);
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 20px;
+}
+.topMenu {
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #464544;
+    overflow: hidden;
+    border-top: solid;
+    border-top-color: #191716;
+    border-bottom: solid;
+    border-bottom-color: #191716;
+    box-shadow: $defaultShadow;
 
-    .header {
-        position: relative;
-        top: 0;
-        z-index: 1;
-        background-color: rgb(255, 249, 241);
+    .menuButton {
+        float: left;
+        transition: 0.3s;
+        cursor: pointer;
         text-align: center;
-        font-size: 2.5vh;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        color: black;
-        padding: 20px;
-    }
-    .topMenu {
-        z-index: 2;
-        position: sticky;
-        top: 0;
-        align-items: flex-start;
-        width: 100%;
+        color: whitesmoke;
         background-color: #464544;
-        overflow: hidden;
-        border-top: solid;
-        border-top-color: #191716;
-        border-bottom: solid;
-        border-bottom-color: #191716;
-        box-shadow: $defaultShadow;
+        text-decoration: none;
+        font-size: 2.4vh;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0.9vh 1vw;
+        border: 1.5px solid transparent;
+    } 
 
-        .menuButton {
-            float: left;
-            transition: 0.3s;
-            cursor: pointer;
-            text-align: center;
-            color: whitesmoke;
-            background-color: #464544;
-            text-decoration: none;
-            font-size: 2.4vh;
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            padding: 0.9vh 1vw;
-            border: 1.5px solid transparent;
-        } 
+    .menuButton:active {
+        background-color: orange;
+        border: 1.5px solid transparent;
+    }
 
-        .menuButton:active {
-            background-color: orange;
-            border: 1.5px solid transparent;
-        }
-
-        .menuButton:hover {
-            background-color: orange;
-            border: 1.5px solid black;
-        }
+    .menuButton:hover {
+        background-color: orange;
+        border: 1.5px solid black;
     }
 }
+
 
 .socialMediaTag {
     z-index: 1;
