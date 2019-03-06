@@ -31,8 +31,7 @@ p {
 }
 
 .pageHeader {
-    position: sticky;
-    top: 0;
+
     .header {
         position: relative;
         top: 0;
@@ -46,6 +45,8 @@ p {
     }
     .topMenu {
         z-index: 1;
+        position: sticky;
+        top: 0;
         align-items: flex-start;
         width: 100%;
         background-color: #464544;

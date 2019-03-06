@@ -41,10 +41,6 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.pageHeader {
-  position: sticky;
-  top: 0;
-}
 .pageHeader .header {
   position: relative;
   top: 0;
@@ -58,6 +54,8 @@ p {
 }
 .pageHeader .topMenu {
   z-index: 1;
+  position: sticky;
+  top: 0;
   align-items: flex-start;
   width: 100%;
   background-color: #464544;
