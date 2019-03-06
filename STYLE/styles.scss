@@ -43,7 +43,7 @@ p {
 }
 
 .topMenu {
-    z-index: 2;
+    z-index: 1;
     position: sticky;
     top: 0;
     align-items: flex-start;
@@ -80,7 +80,6 @@ p {
         border: 1.5px solid black;
     }
 }
-
 
 .socialMediaTag {
     z-index: 1;
@@ -146,7 +145,6 @@ p {
         display: table;
         clear: both;
     }
-
 
     .leftColumn {
         width: 51%;
