@@ -130,9 +130,11 @@ p {
 }
 
 .mainBody {
-  top: 2vh;
-  position: relative;
   z-index: -1;
+  position: relative;
+  top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 .mainBody h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -143,10 +145,9 @@ p {
   clear: both;
 }
 .mainBody .leftColumn {
-  width: 54%;
+  width: 51%;
   position: relative;
   left: 3vw;
-  float: left;
   border-style: solid;
   border-color: #f1f1f1;
   margin-bottom: 10vh;
@@ -154,7 +155,6 @@ p {
 .mainBody .rightColumn {
   width: 37%;
   left: 6vw;
-  float: left;
   position: relative;
   border-style: solid;
   border-color: #f1f1f1;
