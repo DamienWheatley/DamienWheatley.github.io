@@ -7,6 +7,7 @@ $defaultFontColor: rgb(34, 29, 29);
 $defaultBackgroundColor: silver;
 $defaultShadow: 2px 2px 2px #0a0a0a5e;
 $textBody-backgroundColor: rgba(255, 255, 255, 0.749);
+$standardArticleBorder: solid 1px #f1f1f1;
 
 * {
     box-sizing: border-box;
@@ -150,8 +151,6 @@ p {
         width: 51%;
         position: relative;
         left: 3vw;
-        border-style: solid;
-        border-color: #f1f1f1;
         margin-bottom: 10vh;
     }
 
@@ -159,8 +158,6 @@ p {
         width: 37%;
         left: 6vw;
         position: relative;
-        border-style: solid;
-        border-color: #f1f1f1;
         margin-bottom: 10vh;
 
         ol {
@@ -178,12 +175,13 @@ p {
     padding: 2vh 2vw 2vh 2vw;
     background-color: $textBody-backgroundColor;
     box-shadow: $defaultShadow;
+    border: $standardArticleBorder;
 
         p {
             top: 5vh;
         }
 
-        div.heroImage {
+        .heroImage {
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../images/On_A_Rock.jpg);
             box-shadow: $defaultShadow;
             border-radius: 20px;

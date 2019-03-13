@@ -8,24 +8,22 @@
     <script src="./src/giphy.js"></script>
 </head>
 <body>
-    <div class="pageHeader">
-        <div class=header>
-            <h1>Damien Wheatley's HTML Page</h1>
-        </div>
-        <div class="topMenu"> 
-            <a href="https://damienwheatley.github.io/"><button class="menuButton" >Home</button></a>
-            <a href="https://damienwheatley.github.io/trending"><button class="menuButton">Trending</button></a>
-            <a href="https://www.google.com"><button class="menuButton">Another Button</button></a>
-        </div>            
-    </div>
-    <div class="socialMediaTag">
+    <header class="header">
+        <h1>Damien Wheatley's HTML Page</h1>
+    </header>
+    <nav class="topMenu"> 
+        <a href="https://damienwheatley.github.io/"><button class="menuButton" >Home</button></a>
+        <a href="https://damienwheatley.github.io/trending"><button class="menuButton">Trending</button></a>
+        <a href="https://www.google.com"><button class="menuButton">Another Button</button></a>
+    </nav>            
+    <nav class="socialMediaTag">
         <a href="https://www.facebook.com" class="facebook"><img src="images/facebook.png"></a>
         <a href="https://www.twitter.com" class="twitter"><img src="images/twitter.png"></a>
         <a href="https://www.linkedIn.com" class="linkedIn"><img src="images/linkedin.png"></a>
         <a href="https://www.youtube.com" class="youTube"><img src="images/youtube.png"></a>
-    </div>    
-    <div class="mainBody">
-        <div class="textBody">
+    </nav>    
+    <article class="mainBody">
+        <article class="textBody">
             <p id="trendingText">Here's the top 10 Trending GIF's from GIPHY</p>
             <div id="trendingGIFs">
                 <img id="gif~0">
@@ -39,15 +37,15 @@
                 <img id="gif~8">
                 <img id="gif~9">
             </div>
-        </div>
-    </div>
-    <div class="pageFooter">
+        </article>
+    </article>
+    <footer class="pageFooter">
         <a href="https://google.com">
             <img src="/images/google_icon.png" alt="Google Icon" width="30vh" height="30vh">
         </a>
         <a href="https://github.com">
             <img src="/images/Github-Icon.png" alt="Github Icon" width="30vh" height="30vh">
         </a>
-    </div>
+    </footer>
 </body>
 </html>

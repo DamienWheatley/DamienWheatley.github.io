@@ -148,16 +148,12 @@ p {
   width: 51%;
   position: relative;
   left: 3vw;
-  border-style: solid;
-  border-color: #f1f1f1;
   margin-bottom: 10vh;
 }
 .mainBody .rightColumn {
   width: 37%;
   left: 6vw;
   position: relative;
-  border-style: solid;
-  border-color: #f1f1f1;
   margin-bottom: 10vh;
 }
 .mainBody .rightColumn ol {
@@ -173,11 +169,12 @@ p {
   padding: 2vh 2vw 2vh 2vw;
   background-color: rgba(255, 255, 255, 0.749);
   box-shadow: 2px 2px 2px #0a0a0a5e;
+  border: solid 1px #f1f1f1;
 }
 .mainBody .textBody p {
   top: 5vh;
 }
-.mainBody .textBody div.heroImage {
+.mainBody .textBody .heroImage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../images/On_A_Rock.jpg);
   box-shadow: 2px 2px 2px #0a0a0a5e;
   border-radius: 20px;
@@ -188,7 +185,7 @@ p {
   position: relative;
   overflow: hidden;
 }
-.mainBody .textBody div.heroImage .heroText {
+.mainBody .textBody .heroImage .heroText {
   font-family: monospace;
   text-align: center;
   position: absolute;
@@ -197,10 +194,10 @@ p {
   transform: translate(-50%, -50%);
   color: white;
 }
-.mainBody .textBody div.heroImage .heroText h2 {
+.mainBody .textBody .heroImage .heroText h2 {
   color: white;
 }
-.mainBody .textBody div.heroImage .heroText .button {
+.mainBody .textBody .heroImage .heroText .button {
   text-decoration: none;
   color: initial;
   border: none;
@@ -212,7 +209,7 @@ p {
   text-align: center;
   cursor: pointer;
 }
-.mainBody .textBody div.heroImage .heroText .button :hover {
+.mainBody .textBody .heroImage .heroText .button :hover {
   background-color: #cecece;
   color: white;
 }
